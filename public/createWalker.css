@@ -1,0 +1,143 @@
+body {
+    margin: auto 10%;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 200%;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    font-size: 60px;
+    color: #39dcb5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+form .input-block {
+    display: grid;
+    grid-template-rows: repeat(2, fr);
+}
+
+form .input-block input {
+    padding: 0 16px;
+    border-radius: 6px;
+    height: 35px;
+    border: 1px solid rgb(192, 188, 188);
+    width: 80%;
+    
+}
+
+form fieldset {
+    border: 0;
+}
+
+form fieldset legend {
+    width: 100%;
+
+    font-size: 30px;
+    line-height: 34px;
+    color: #5c8599;
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3e2e5;
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+}
+
+form .input-block label {
+    color: #8fa7b3;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+form .input-block label {
+    font-size: 14px;
+    color: #8fa7b3;
+    margin-left: 24px;
+    line-height: 24px;
+    position: relative;
+}
+
+form .input-block input,
+form .input-block textarea {
+    width: 100%;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 6px;
+    outline: none;
+    color: #5c8599;
+}
+
+form .input-block input,
+form .input-block textarea ::placeholder {
+    color: gray;
+}
+
+form .input-block textarea {
+    max-height: 240px;
+    resize: none;
+    padding: 16px;
+    line-height: 28px;
+    width: 350px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button-group button[type="submit"] {
+    height: 64px;
+    width: 150px;
+    background: green;
+    border: 1px solid #d3e2e5;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button-group button[type="reset"] {
+    height: 64px;
+    width: 150px;
+    background: red;
+    border: 1px solid #d3e2e5;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media (min-width: 700px) {
+    form {
+        margin: 120px;
+    }
+
+    form .input-block textarea {
+        margin-top: 20px;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+    }
+}

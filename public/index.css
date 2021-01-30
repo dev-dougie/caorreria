@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+svg {
+    max-height: 50vh;
+}
+
+p{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+a.myname{
+    background-color: black;
+}
+
+a.become {
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    background: #39dcb5;
+    border-radius: 6px;
+}
+
+a.find {
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    background: #33CBE0;;
+    border-radius: 6px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    margin: auto 50%;
+    
+}
+
+footer > p{
+    font-size: 16px;
+}
